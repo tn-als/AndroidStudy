@@ -1,3 +1,30 @@
 <resources>
     <string name="app_name">week2</string>
+    <string name="error_id">Error : ID must be 6 to 10 characters -> %d</string>
+    <string name="error_pw">Error : PW must be 6 to 10 characters -> %d</string>
+    <string name="error_name">Error : Nickname must be at least 1 character excluding spaces.</string>
+    <string name="error_mbti">Error : Incorrect mbti</string>
+    <string name="error_about">Error : AboutMe must be at least 1 character excluding spaces.</string>
+    <string name="id_is">ID : %s</string>
+    <string name="pw_is">Password : %s</string>
+    <string name="name_is">Nickname : %s</string>
+    <string name="mbti_is">MBTI : %s</string>
+    <string name="about_is">AboutMe : %s</string>
+    <string name="welcome">Welcome to C-Lab</string>
+    <string name="input_id">아이디를 입력해주세요</string>
+    <string name="input_pw">비밀번호를 입력해주세요</string>
+    <string name="ID">ID</string>
+    <string name="PW">PASSWORD</string>
+    <string name="go_to_login">로그인하기</string>
+    <string name="sign_up">회원가입</string>
+    <string name="SIGN_UP">SIGN UP</string>
+    <string name="nickname">닉네임</string>
+    <string name="input_nickname">닉네임을 입력해주세요</string>
+    <string name="mbti">MBTI</string>
+    <string name="input_mbti">MBTI를 입력해주세요</string>
+    <string name="about_me">About Me</string>
+    <string name="input_about_me">한 줄 자기소개를 입력해주세요</string>
+    <string name="complete_sign_up">회원가입하기</string>
+    <string name="message">Message</string>
+    <string name="my_page">My Page</string>
 </resources>
