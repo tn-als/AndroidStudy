@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginStart="20dp"
+    android:layout_marginEnd="20dp"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:id="@+id/tv_signup_sign_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="@string/SIGN_UP"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_signup_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/ID"
+        app:layout_constraintStart_toStartOf="@id/et_signup_id"
+        app:layout_constraintTop_toBottomOf="@id/tv_signup_sign_up" />
+
+    <EditText
+        android:id="@+id/et_signup_id"
+        android:layout_width="340dp"
+        android:layout_height="48dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/input_id"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_signup_id" />
+
+
+    <TextView
+        android:id="@+id/tv_signup_pw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="@string/PW"
+        app:layout_constraintStart_toStartOf="@id/et_signup_pw"
+        app:layout_constraintTop_toBottomOf="@id/et_signup_id" />
+
+    <EditText
+        android:id="@+id/et_signup_pw"
+        android:layout_width="340dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="2dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/input_pw"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_signup_pw" />
+
+    <TextView
+        android:id="@+id/tv_signup_nickname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="@string/nickname"
+        app:layout_constraintStart_toStartOf="@id/et_signup_nickname"
+        app:layout_constraintTop_toBottomOf="@id/et_signup_pw" />
+
+    <EditText
+        android:id="@+id/et_signup_nickname"
+        android:layout_width="340dp"
+        android:layout_height="48dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/input_nickname"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_signup_nickname" />
+
+    <TextView
+        android:id="@+id/tv_signup_mbti"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="@string/mbti"
+        app:layout_constraintStart_toStartOf="@id/et_signup_mbti"
+        app:layout_constraintTop_toBottomOf="@id/et_signup_nickname" />
+
+    <EditText
+        android:id="@+id/et_signup_mbti"
+        android:layout_width="340dp"
+        android:layout_height="48dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/input_mbti"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_signup_mbti" />
+
+    <TextView
+        android:id="@+id/tv_signup_aboutme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="@string/about_me"
+        app:layout_constraintStart_toStartOf="@id/et_signup_aboutme"
+        app:layout_constraintTop_toBottomOf="@id/et_signup_mbti" />
+
+    <EditText
+        android:id="@+id/et_signup_aboutme"
+        android:layout_width="340dp"
+        android:layout_height="48dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/input_about_me"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_signup_aboutme" />
+
+    <Button
+        android:id="@+id/tv_sign_up_end"
+        android:layout_width="340dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="60dp"
+        android:text="@string/complete_sign_up"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/et_signup_aboutme" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
